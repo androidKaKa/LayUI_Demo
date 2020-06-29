@@ -10,7 +10,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>LayUiUpload</servlet-name>
-        <url-pattern>/LayUiUpload</url-pattern>
+        <url-pattern>/LayUI_Demo/LayUiUpload</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

@@ -50,7 +50,7 @@
 
         upload.render({ //允许上传的文件后缀
             elem: '#test4'
-            ,url: '/upload/'
+            ,url: '/LayUI_Demo/LayUiUpload'
             ,accept: 'file' //普通文件
             ,exts: 'zip|rar|7z' //只允许上传压缩文件
             ,done: function(res){
@@ -61,7 +61,7 @@
         //设定文件大小限制
         upload.render({
             elem: '#test7'
-            ,url: '/LayUiUpload'
+            ,url: '/LayUI_Demo/LayUiUpload'
             ,size: 60 //限制文件大小，单位 KB
             ,done: function(res){
                 console.log(res)
@@ -72,7 +72,7 @@
         var demoListView = $('#demoList')
             ,uploadListIns = upload.render({
             elem: '#testList'
-            ,url: '/LayUiUpload'
+            ,url: '/LayUI_Demo/LayUiUpload'
             //  ,size: 60 //限制文件大小，单位 KB
             ,accept: 'image/*'
             ,data:{'ID':277}   //可放扩展数据  key-value
